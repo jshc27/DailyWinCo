@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles.css" type="text/css">
+    <script defer src="./DailyWin_Carousel.js"></script>
+    <title>DailyWin.co.v1</title>
+</head>
+<body>
+    <head class="head_1">
+        <div class="RulesGame">
+            <ul>
+                <li>
+                    <a href="./Strategy/Estrategica.html">Nosotros</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="./Strategy/PoliticGame.html">Politicas de juego</a>
+                </li>
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="./images/DailyWin.png">
+        </div>
+    </head>
+    <div class="SpecialBox">
+        <div>
+            <div class="reloj">
+                <p class="fecha"></p>
+                <p class="tiempo"></p>
+            </div>
+            <div><h2>PREMIO:<p class="valorColor">$200.000</p></h2></div>
+            <div class="ganadorRifa"><h2>GANADOR:11pm-25/06/24</h2></div>
+            <div class="CallToAction">
+                <li>
+                    <button class="comprar">
+                        <a href="https://wa.me/573115617245?text=Quiero%20comparar%20mi%20boleta">¡Compra ahora!</a>
+                    </button>
+                    
+                </li>
+            </div>
+        </div>
+        
+    </div>
+    <div class="boleteria">
+        <div class="search">
+            <h3>Consulta y adquiere tu número ideal</h3>
+            <input type="text" class="buscar-input" id="search" placeholder="Busca tu número de rifa">
+            <button onclick="buscar()" class="buscar-button">Buscar</button>
+            <ul id="results" class="results"></ul>
+        </div>
+        <div class="carrousel">
+            <div class="slick-list" id="slick-list">
+                <button class="slick-arrow slick-prev" id="button-prev">
+                    <img src="./images/flecha-izquierda.png" alt="flecha izquierda" width="40px" height="40px">
+                </button>
+                <button class="slick-arrow slick-next" id="button-next">
+                    <img src="./images/flecha-derecha.png" alt="flecha derecha" width="40px" height="40px">
+                </button>
+                <div class="slick-track" id="track">
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/0.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-0"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/1.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-1"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/2.png" alt="image1"  class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-2"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/3.png" alt="image1"  class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-3"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/4.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-4"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/5.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-5"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/6.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-6"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/7.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-7"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/8.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-8"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/9.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-9"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/10.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-10"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/11.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-11"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/12.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-12"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/13.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-13"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/14.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-14"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/15.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-15"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/16.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-16"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/17.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-17"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/18.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-18"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/19.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-19"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/20.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-20"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/21.png" alt="image11" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-21"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/22.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-22"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/23.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-23"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/24.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-24"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/25.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-25"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/26.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-26"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/27.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-27"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/28.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-28"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/29.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-29"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/30.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-30"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/31.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-31"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/32.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-32"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/33.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-33"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/34.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-34"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/35.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-35"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/36.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-36"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/37.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-37"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/38.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-38"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/39.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-39"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/40.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-40"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/41.png" alt="image1" class="image">
+                            </picture>
+                            <ul class="estadoLoad" id="contenedor-41"></ul>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/42.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/43.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/44.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/45.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/46.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/47.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/48.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/49.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/50.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/51.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/52.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/53.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/54.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/55.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/56.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/57.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/58.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/59.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/60.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/61.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/62.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/63.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/64.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/65.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/66.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/67.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/68.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/69.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/70.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/71.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/72.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/73.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/74.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/75.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/76.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/77.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/78.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/79.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/80.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/81.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/82.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/83.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/84.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/85.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/86.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/87.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/88.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/89.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/90.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/91.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/92.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/93.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/94.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/95.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/96.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/97.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/98.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <picture>
+                                <img src="./images/99.png" alt="image1" class="image">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="CallToAction">
+        <li>
+            <button class="comprar">
+                <a href="https://wa.me/573115617245?text=Quiero%20comparar%20mi%20boleta">¡Compra ahora!</a>
+            </button>
+            
+        </li>
+    </div>
+    <footer class="footer">
+        <p>© 2024 DailyWinColombia</p>
+    </footer>
+</body>
+<script src="./functions/reloj.js"></script>
+<script src="./functions/script.js"></script>
+</html>
