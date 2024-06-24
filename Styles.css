@@ -371,3 +371,43 @@ li {
     justify-content: center;
 
 }
+
+
+@media (max-width: 575px){
+
+    .containerSpecialBox {
+
+        text-align: center;
+        display: ruby;
+    }
+
+    .reloj {
+
+       margin-top: 20px;
+       margin-bottom: 20px;
+       background-color: #ffffff6b;
+       font-weight: 600;
+    }
+
+    .containerSpecialBox {
+
+        box-shadow: 0px 2px 10px rgb(0, 0, 0, 0.1);
+    }
+
+    .CallToAction {
+        box-shadow: none;
+    }
+
+    .SpecialBox h2 {
+
+        background-color: #ffffff6b;
+        text-shadow: -1px -1px white, 1px 1px #333
+    }
+
+    .ganadorRifa h2 {
+
+        letter-spacing: 0;
+    }
+
+
+}
