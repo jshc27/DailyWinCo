@@ -127,7 +127,7 @@ p {
 .search {
     
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15px;
     height: 120px;
     padding: 20px;
 }
@@ -386,7 +386,14 @@ li {
 }
 
 
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media screen and (min-width : 375px) and (max-width : 480px) {
+
+
+    .search{
+
+        margin-top: 15px;
+
+    }
 
     .containerSpecialBox {
 
@@ -396,10 +403,11 @@ li {
 
     .reloj {
 
-       margin-top: 20px;
-       margin-bottom: 20px;
-       background-color: #ffffff6b;
-       font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff6b;
+    font-weight: 600;
+
     }
 
     .CallToAction {
@@ -417,7 +425,53 @@ li {
         letter-spacing: 0;
     }
 
-
 }
 
+
+
+@media screen and (min-width : 320px) and (max-width : 374px) {
+
+
+    .search{
+
+        margin-top: 0px;
+        height: 40vh;
+    }
+
+    .search button {
+
+        margin-top: 10px;
+    }
+
+    .containerSpecialBox {
+
+        text-align: center;
+        display: ruby;
+    }
+
+    .reloj {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff6b;
+    font-weight: 600;
+
+    }
+
+    .CallToAction {
+        box-shadow: none;
+    }
+
+    .SpecialBox h2 {
+
+        background-color: #ffffff6b;
+        text-shadow: -1px -1px white, 1px 1px #333
+    }
+
+    .ganadorRifa h2 {
+
+        letter-spacing: 0;
+    }
+
+}
 
