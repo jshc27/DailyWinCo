@@ -363,7 +363,7 @@ li {
 }
 
 .containerGanadores {
-    
+
     height: 100vh;
     padding: 50px;
     background-color: #f2f3f3;
@@ -421,3 +421,38 @@ li {
 
 
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    
+    .containerSpecialBox {
+
+        text-align: center;
+        display: ruby;
+    }
+
+    .reloj {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff6b;
+    font-weight: 600;
+    
+    }
+
+    .CallToAction {
+        box-shadow: none;
+    }
+
+    .SpecialBox h2 {
+
+        background-color: #ffffff6b;
+        text-shadow: -1px -1px white, 1px 1px #333
+    }
+
+    .ganadorRifa h2 {
+
+        letter-spacing: 0;
+    }
+
+
+  }
