@@ -362,6 +362,20 @@ li {
     margin-bottom: 20px;
 }
 
+.containerGanadores {
+    height: 100vh;
+    padding: 50px;
+    background-color: #f2f3f3;
+}
+
+.titleGanadores {
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
 .footer {
 
     display: flex;
