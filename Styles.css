@@ -228,7 +228,6 @@ li {
     align-items: center;
     width: fit-content;
     height: 384px;
-    padding: 10px 0px;
     margin: 0px auto;
     max-width: 90vw;
     overflow: hidden;
@@ -363,7 +362,6 @@ li {
 }
 
 .containerGanadores {
-
     height: 100vh;
     padding: 50px;
     background-color: #f2f3f3;
@@ -388,10 +386,8 @@ li {
 }
 
 
+@media only screen and (min-width : 320px) and (max-width : 480px) {
 
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    
     .containerSpecialBox {
 
         text-align: center;
@@ -400,11 +396,10 @@ li {
 
     .reloj {
 
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: #ffffff6b;
-    font-weight: 600;
-
+       margin-top: 20px;
+       margin-bottom: 20px;
+       background-color: #ffffff6b;
+       font-weight: 600;
     }
 
     .CallToAction {
@@ -423,4 +418,6 @@ li {
     }
 
 
-  }
+}
+
+
