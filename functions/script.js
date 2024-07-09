@@ -7,8 +7,8 @@ let data = [
     "18 Disponible","19 Disponible","20 Disponible","21 Comprada","22 Disponible","23 Disponible",
     "24 Disponible","25 Disponible","26 Disponible","27 Disponible","28 Disponible","29 Disponible",
     "30 Disponible","31 Disponible","32 Comprada","33 Disponible","34 Disponible","35 Disponible",
-    "36 Disponible","37 Disponible","38 Disponible","39 Disponible","03 Disponible","40 Comprada",
-    "41 Disponible","42 Disponible","43 Disponible","44 Disponible","45 Disponible","46 Comprada",
+    "36 Disponible","37 Disponible","38 Disponible","39 Disponible","40 Comprada","41 Disponible",
+    "42 Disponible","43 Disponible","44 Disponible","45 Disponible","46 Comprada",
     "47 Disponible","48 Disponible","49 Disponible","50 Disponible","51 Disponible","52 Disponible",
     "53 Disponible","54 Disponible","55 Disponible","56 Disponible","57 Disponible","58 Disponible",
     "59 Disponible","60 Disponible","61 Disponible","62 Disponible","63 Disponible","64 Disponible",
@@ -18,6 +18,7 @@ let data = [
     "83 Disponible","84 Disponible","85 Disponible","86 Disponible","87 Disponible","88 Disponible",
     "89 Disponible","90 Disponible","91 Disponible","92 Disponible","93 Disponible","94 Disponible",
     "95 Disponible","96 Disponible","97 Disponible","98 Disponible","99 Disponible"
+
 ];
 
 
