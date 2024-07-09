@@ -385,6 +385,8 @@ li {
 
 .social p {
     text-align: center;
+    font-weight: bold;
+    color: #ff5931;
 }
 .social {
 
