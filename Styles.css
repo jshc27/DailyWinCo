@@ -491,6 +491,12 @@ li {
         letter-spacing: 0;
     }
 
+    .social {
+
+        font-size: 14px;
+        padding: 10px;
+    }
+
 }
 
 
