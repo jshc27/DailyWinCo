@@ -383,6 +383,13 @@ li {
     margin-top: 20px;
 }
 
+.social p {
+    text-align: center;
+}
+.social {
+
+    margin-bottom: 20px;
+}
 
 .footer {
 
@@ -392,6 +399,7 @@ li {
     justify-content: center;
 
 }
+
 
 
 @media screen and (min-width : 375px) and (max-width : 480px) {
