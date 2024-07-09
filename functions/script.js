@@ -1,7 +1,7 @@
 
 let data = [
 
-    "00 Disponible","01 Disponible","02 Comprada", "03 Disponible","04 Disponible","05 Disponible",
+    "00 Disponible","01 Disponible","02 Comprada", "03 Comprada","04 Disponible","05 Disponible",
     "06 Comprada","07 Comprada","08 Disponible","09 Disponible","10 Disponible","11 Disponible",
     "12 Disponible","13 Comprada","14 Disponible","15 Disponible","16 Disponible","17 Disponible",
     "18 Disponible","19 Disponible","20 Comprada","21 Comprada","22 Disponible","23 Disponible",
@@ -11,7 +11,7 @@ let data = [
     "42 Disponible","43 Disponible","44 Disponible","45 Disponible","46 Comprada",
     "47 Disponible","48 Disponible","49 Disponible","50 Disponible","51 Disponible","52 Disponible",
     "53 Disponible","54 Disponible","55 Disponible","56 Disponible","57 Disponible","58 Disponible",
-    "59 Disponible","60 Disponible","61 Disponible","62 Disponible","63 Disponible","64 Disponible",
+    "59 Disponible","60 Disponible","61 Comprada","62 Disponible","63 Disponible","64 Disponible",
     "65 Disponible","66 Disponible","67 Disponible","68 Disponible","69 Disponible","70 Disponible",
     "71 Disponible","72 Disponible","73 Comprada","74 Disponible","75 Disponible","76 Disponible",
     "77 Disponible","78 Disponible","79 Disponible","80 Disponible","81 Disponible","82 Disponible",
