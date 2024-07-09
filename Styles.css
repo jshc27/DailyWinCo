@@ -402,6 +402,21 @@ li {
 
 }
 
+.Ganador-10J24 {
+
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 2px 10px rgb(0, 0, 0, 0.1);
+
+}
+
+.Ganador-10J24 img {
+
+    height: 250px;
+    width: 250px;
+    object-fit: contain;
+}
 
 
 @media screen and (min-width : 375px) and (max-width : 480px) {
