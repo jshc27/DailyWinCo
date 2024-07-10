@@ -1,7 +1,7 @@
 
 let data = [
 
-    "00 Disponible","01 Disponible","02 Comprada", "03 Comprada","04 Disponible","05 Comprada",
+    "00 Disponible","01 Disponible","02 Comprada", "03 Comprada","04 Comprada","05 Comprada",
     "06 Comprada","07 Comprada","08 Comprada","09 Disponible","10 Disponible","11 Disponible",
     "12 Comprada","13 Comprada","14 Disponible","15 Disponible","16 Comprada","17 Disponible",
     "18 Disponible","19 Disponible","20 Comprada","21 Comprada","22 Disponible","23 Disponible",
