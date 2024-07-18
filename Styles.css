@@ -306,10 +306,6 @@ li {
    
 }
 
-.CallToAction li {
-    list-style: none;;
-}
-
 .CallToAction a {
 
     text-decoration: none;
@@ -329,6 +325,10 @@ li {
     border: none;
 }
 
+.comprar a  {
+
+    padding: 10px 40px 11px;
+}
 
 .ContainerRuleGame {
 
