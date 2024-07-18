@@ -20,8 +20,8 @@ body {
 .RulesGame {
 
     display: flex;
-    background-color: #1f83bd;
-    justify-content: flex-end;
+    background: -webkit-linear-gradient(90deg, #0097b2,#1f83bd,#0097b2);                      
+    background: linear-gradient(90deg, #0097b2,#1f83bd,#0097b2);
     align-items: center;
     padding: 20px;
     height: 45px;
@@ -270,13 +270,13 @@ li {
 
 .slick-arrow {
     border-radius: 30px;
-    background-color: white;
+    background-color: #ff5931;
     position: absolute;
     z-index: 4;
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
     text-align: center;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
     border: 0;
     cursor: pointer;
 
@@ -325,7 +325,7 @@ li {
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0px 2px 10px rgb(0, 0, 0, 0.1);
-    background-color: #0097b2;
+    background-color:#1f83bd;
     border: none;
 }
 
@@ -402,8 +402,8 @@ li {
     height: 50px;
     align-items: center;
     justify-content: center;
-    background-color: #1f83bd;
-
+    background: -webkit-linear-gradient(90deg, #0097b2,#1f83bd,#0097b2);                      
+    background: linear-gradient(90deg, #0097b2,#1f83bd,#0097b2);
 }
 
 .footer p {
