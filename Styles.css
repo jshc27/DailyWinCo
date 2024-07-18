@@ -46,6 +46,8 @@ body {
 .RulesGame a {
     text-decoration: none;
     color: white;
+    font-weight: bold;
+    
 }
 
 
@@ -313,6 +315,7 @@ li {
     text-decoration: none;
     color: #f9f9f9;
     font-size: 16px;
+    font-weight: bold;
 }
 
 .comprar {
@@ -386,7 +389,7 @@ li {
 .social p {
     text-align: center;
     font-weight: bold;
-    color: #ff5931;
+    color: black;
 }
 .social {
 
