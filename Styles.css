@@ -457,6 +457,10 @@ li {
         box-shadow: none;
     }
 
+    .RulesGame {
+        justify-content: center;
+    }
+
     .SpecialBox h2 {
 
         background-color: #ffffff6b;
@@ -503,6 +507,11 @@ li {
 
     .CallToAction {
         box-shadow: none;
+    }
+
+    .RulesGame {
+
+        justify-content: center;
     }
 
     .SpecialBox h2 {
