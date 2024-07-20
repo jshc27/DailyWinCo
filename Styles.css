@@ -514,6 +514,8 @@ li {
     .RulesGame {
 
         justify-content: center;
+        padding: 5px;
+        font-size: 14px;
     }
 
     .SpecialBox h2 {
