@@ -299,6 +299,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 
 }
 
@@ -437,10 +438,6 @@ li {
     text-align: center;
     font-weight: bold;
     color: black;
-}
-.social {
-
-    margin-bottom: 20px;
 }
 
 .footer {
@@ -584,6 +581,10 @@ li {
 
         height: 250px;
         width: 210px;
+    }
+
+    .buscar-input {
+        width: 140px;
     }
 
 }
