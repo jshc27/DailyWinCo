@@ -333,7 +333,8 @@ li {
 .ContainerRuleGame {
 
     padding: 50px;
-    background-color: #f2f3f3;
+    background-color: white;
+    text-align: justify;
 
 }
 
