@@ -31,7 +31,6 @@ body {
 .ganadorRifa {
 
     margin-bottom: 10px;
-    box-shadow: 0px 2px 10px rgba(160, 143, 143, 0.1);
 
 }
 
@@ -60,30 +59,27 @@ body {
 
 .SpecialBox {
 
-    display:flex;
-    background-image: url('./images/Images_Secundaria.png');
-    height: 400px;
+    display:grid;
+    background-image: url('./images/prueba.jpg');
+    text-align: center;
+    height: 300px;
     padding: 20px;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     
 }
 
-.SpecialBox h3 {
-
+.important {
     background-color: #ffffff6b;
-    text-shadow: -0.1px -0.1px white, 0.3px 0.3px #333
-
-}
-
-.containerSpecialBox {
-
-    text-align: center;
+    text-shadow: -0.1px -0.1px white, 0.3px 0.3px #333;
 }
 
 .ganadorRifa h3  {
 
-    box-shadow: 0px 2px 10px rgb(0, 0, 0, 0.1);
+    box-shadow: 50px 1px 2px rgb(0, 0, 0, 0.1);
 }
 
 // Watch // 
@@ -120,14 +116,6 @@ p {
 
 */
 
-.Boleteria {
-
-    height: 300px;
-    padding: 5%;
-}
-
-
-
 .image {
 
     height: 200px;
@@ -142,13 +130,11 @@ p {
     padding: 20px;
 }
 
-h3 {
-    margin-bottom: 20px;
-}
 
 .buscar-input {
 
     flex: 1;
+    margin-top: 25px;
     padding: 10px;
     border-radius: 5px;
     border: none;
@@ -295,6 +281,10 @@ li {
 
 }
 
+.buscar-button {
+
+    background-color:  #1f83bd;
+}
 
 .slick-prev {
     left: 0px;
@@ -309,8 +299,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 140px;
-   
+
 }
 
 .CallToAction a {
@@ -524,12 +513,6 @@ li {
         justify-content: center;
     }
 
-    .SpecialBox h3 {
-
-        background-color: #ffffff6b;
-        text-shadow: -0.1px -0.1px white, 0.3px 0.3px #333;
-    }
-
     .Ganador-10J24 {
         display: flex;
     }
@@ -558,6 +541,11 @@ li {
     
     }
 
+    .SpecialBox {
+
+        height: 325px;
+    }
+
     /*
     .reloj {
 
@@ -579,12 +567,6 @@ li {
         justify-content: center;
         padding: 5px;
         font-size: 14px;
-    }
-
-    .SpecialBox h3 {
-
-        background-color: #ffffff6b;
-        text-shadow: -0.1px -0.1px white, 0.3px 0.3px #333;
     }
 
     .social {
