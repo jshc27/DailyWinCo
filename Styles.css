@@ -479,6 +479,7 @@ li {
     .search{
 
         margin-top: 15px;
+        height: 30vh;
 
     }
 
@@ -524,7 +525,7 @@ li {
     .search{
 
         margin-top: 0px;
-        height: 25vh;
+        height: 20vh;
     }
 
     .search button {
