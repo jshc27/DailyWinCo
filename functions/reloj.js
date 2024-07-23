@@ -1,4 +1,4 @@
-const $tiempo=document.querySelector('.tiempo'),
+/*const $tiempo=document.querySelector('.tiempo'),
 $fecha= document.querySelector('.fecha');
 
 function Relojdigital(){
@@ -21,3 +21,4 @@ function Relojdigital(){
 setInterval(() =>{
     Relojdigital()
 },1000);
++/
