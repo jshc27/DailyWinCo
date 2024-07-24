@@ -540,3 +540,9 @@ li {
     }
 
 }
+
+
+#contenedor-2, #contenedor-3, #contenedor-9, #contenedor-12 {
+
+    color: red;
+}
