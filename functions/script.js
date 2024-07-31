@@ -17,7 +17,7 @@ let data = [
     "77 Disponible","78 Disponible","79 Disponible","80 Disponible","81 Disponible","82 Disponible",
     "83 Disponible","84 Disponible","85 Disponible","86 Disponible","87 Disponible","88 Disponible",
     "89 Disponible","90 Disponible","91 Disponible","92 Disponible","93 Disponible","94 Disponible",
-    "95 Disponible","96 Disponible","97 Disponible","98 Disponible","99 Disponible"
+    "95 Disponible","96 Comprado","97 Disponible","98 Disponible","99 Disponible"
 
 
 ];
