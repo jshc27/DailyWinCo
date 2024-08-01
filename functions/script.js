@@ -13,7 +13,7 @@ let data = [
     "53 Disponible","54 Disponible","55 Disponible","56 Disponible","57 Disponible","58 Disponible",
     "59 Disponible","60 Disponible","61 Comprado","62 Disponible","63 Disponible","64 Disponible",
     "65 Disponible","66 Disponible","67 Disponible","68 Disponible","69 Disponible","70 Disponible",
-    "71 Disponible","72 Disponible","73 Disponible","74 Disponible","75 Disponible","76 Disponible",
+    "71 Disponible","72 Disponible","73 Disponible","74 Disponible","75 Comprada","76 Disponible",
     "77 Disponible","78 Disponible","79 Disponible","80 Disponible","81 Disponible","82 Disponible",
     "83 Disponible","84 Disponible","85 Disponible","86 Disponible","87 Disponible","88 Disponible",
     "89 Disponible","90 Disponible","91 Disponible","92 Disponible","93 Disponible","94 Disponible",
