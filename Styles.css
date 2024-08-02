@@ -382,13 +382,13 @@ li {
     text-decoration: none;
 }
 
-.Sorteo-2, .Sorteo-3 {
+.Sorteo-2, .Sorteo-3, .Sorteo-4 {
 
     margin-top: 20px;
 }
 
 
-.Sorteo-2 h3, .Sorteo-3 h3 {
+.Sorteo-2 h3, .Sorteo-3 h3, .Sorteo-4 h3 {
 
     border: 1px solid #f0f2f5;
     margin-bottom: 10px;
