@@ -87,6 +87,9 @@ function buscar() {
         resultsElement.appendChild(li);
     }
 
+     // Limpiar el input después de la búsqueda
+     document.getElementById("search").value = "";
+
 };
   
 
