@@ -501,7 +501,7 @@ button a {
 
     .containerBoleteria {
 
-        margin: 0px;
+        margin: 8px;
     }
     .search{
 
@@ -564,8 +564,3 @@ button a {
 
 }
 
-
-#contenedor-23, #contenedor-15, #contenedor-0, #contenedor-1, #contenedor-3 {
-
-    color: red;
-}
