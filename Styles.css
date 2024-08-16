@@ -459,6 +459,7 @@ button a {
 
     .containerBoleteria {
         margin: 0px;
+        margin-top: 20px;
     }
 
     .search{
@@ -501,7 +502,8 @@ button a {
 
     .containerBoleteria {
 
-        margin: 8px;
+        margin: 0px;
+        margin-top: 50px;
     }
     .search{
 
