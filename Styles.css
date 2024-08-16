@@ -62,7 +62,7 @@ body {
 .SpecialBox {
 
     display: grid;
-    background-image: url("/images/images_principal.jpg");
+    background-image: url('./images/images_principal.jpg');
     width: 100vw;
     height: 300px;
     background-position: center center;
