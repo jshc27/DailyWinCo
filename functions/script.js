@@ -70,7 +70,6 @@ function buscar() {
         }
     }
 
-
     let resultsElement = document.getElementById("results");
     resultsElement.innerHTML = "";
 
@@ -87,6 +86,7 @@ function buscar() {
         resultsElement.appendChild(li);
     }
 
+    document.getElementById("search").value = "";
+
 };
-  
 

@@ -1,4 +1,4 @@
-const buttonPrev = document.getElementById('button-prev');
+/* const buttonPrev = document.getElementById('button-prev');
 const buttonNext = document.getElementById('button-next');
 const track = document.getElementById('track');
 const slickList = document.getElementById('slick-list');
@@ -21,5 +21,4 @@ function Move(value) {
     } else if(leftPosition > 0 && value == 1) {
         track.style.left = `${-1 * (leftPosition - slickWidth)}px`;
     }
-}
-
+}*/
