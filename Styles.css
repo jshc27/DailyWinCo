@@ -76,6 +76,51 @@ body {
 }
 
 
+// Sliders
+
+.slider {
+
+    width: 75vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider .slider-content {
+
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(150px * 12);
+    
+}
+
+.slider .slide {
+
+    width: 150px;
+    margin-left: 18px;
+    
+}
+
+.slider .slide img {
+
+    width: 150%;
+
+}
+
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-150px * 12));
+        transform: translateX(calc(-150px * 12));
+    }
+}
+
+
 
 
 p {
