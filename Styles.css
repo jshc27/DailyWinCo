@@ -472,6 +472,8 @@ button a {
     justify-content: center;
     background: -webkit-linear-gradient(90deg, #0097b2,#1f83bd,#0097b2);                      
     background: linear-gradient(90deg, #0097b2,#1f83bd,#0097b2);
+    margin: 0;
+    padding: 0;
 }
 
 .footer p {
