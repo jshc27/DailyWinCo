@@ -504,6 +504,11 @@ button a {
         margin-top: 40px;
     }
 
+    .slider {
+
+        overflow: hidden;
+    }
+
     .search{
 
         margin-top: 15px;
@@ -546,6 +551,10 @@ button a {
 
         margin: 0px;
         margin-top: 25px;
+    }
+
+    .slider {
+        overflow: hidden;
     }
     .search{
 
