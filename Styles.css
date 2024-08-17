@@ -76,14 +76,12 @@ body {
 }
 
 
-// Sliders
-
 .slider {
 
-    width: 75vw;
-    overflow: hidden;
+    width: 100%;
     height: auto;
     margin: auto;
+    overflow: hidden;
 
 }
 
@@ -92,7 +90,7 @@ body {
     display: flex;
     animation: scroll 40s linear infinite;
     -webkit-animation: scroll 40s linear infinite;
-    width: calc(150px * 12);
+    width: calc(150px * 9);
     
 }
 
@@ -105,7 +103,7 @@ body {
 
 .slider .slide img {
 
-    width: 150%;
+    width: 150px;
 
 }
 
@@ -116,11 +114,10 @@ body {
         transform: translateX(0);
     }
     100% {
-        -webkit-transform: translateX(calc(-150px * 12));
-        transform: translateX(calc(-150px * 12));
+        -webkit-transform: translateX(calc(-150px * 9));
+        transform: translateX(calc(-150px * 9));
     }
 }
-
 
 
 
