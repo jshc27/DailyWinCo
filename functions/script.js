@@ -1,10 +1,10 @@
 
 let data = [
 
-    "00 Disponible","01 Disponible","02 Disponible", "03 Disponible","04 Disponible","05 Comprado",
+    "00 Disponible","01 Disponible","02 Comprada", "03 Disponible","04 Disponible","05 Comprado",
     "06 Disponible","07 Disponible","08 Disponible","09 Disponible","10 Disponible","11 Disponible",
     "12 Disponible","13 Disponible","14 Disponible","15 Disponible","16 Disponible","17 Disponible",
-    "18 Disponible","19 Disponible","20 Disponible","21 Comprado","22 Disponible","23 Comprado",
+    "18 Disponible","19 Disponible","20 Comprada","21 Comprado","22 Disponible","23 Comprado",
     "24 Disponible","25 Disponible","26 Disponible","27 Disponible","28 Disponible","29 Disponible",
     "30 Comprado","31 Disponible","32 Disponible","33 Disponible","34 Disponible","35 Disponible",
     "36 Disponible","37 Disponible","38 Disponible","39 Disponible","40 Disponible","41 Disponible",
