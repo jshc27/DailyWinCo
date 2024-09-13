@@ -434,18 +434,18 @@ button a {
     color: #ffff;
 }
 
-.Sorteo-1 a, .Sorteo-2 a, .Sorteo-3 a {
+.Sorteo-1 a, .Sorteo-2 a, .Sorteo-3 a, .Sorteo-4 a, .Sorteo-5 a, .Sorteo-6 a {
 
     text-decoration: none;
 }
 
-.Sorteo-2, .Sorteo-3, .Sorteo-4 {
+.Sorteo-2, .Sorteo-3, .Sorteo-4, .Sorteo-5, .Sorteo-6 {
 
     margin-top: 20px;
 }
 
 
-.Sorteo-2 h3, .Sorteo-3 h3, .Sorteo-4 h3 {
+.Sorteo-2 h3, .Sorteo-3 h3, .Sorteo-4 h3, .Sorteo-5 h3, .Sorteo-6 h3 {
 
     border: 1px solid #f0f2f5;
     margin-bottom: 10px;
